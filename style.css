@@ -1,0 +1,81 @@
+/* #################### external css file ###################### */
+
+/* ################ Global styling #################### */
+
+/* start of global font of body */
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+}
+
+/* end of global font of body */
+
+/* For heading font */
+.font {
+    font-family: "Neuton", serif;
+    font-weight: bolder;
+}
+
+/* this is for under line below heading */
+#underDash {
+    height: 2px;
+    background-color: black;
+    width: 5%;
+}
+
+/* theme color background */
+.myColor {
+    background-color: #FFBE13;
+}
+
+/* theme color for text */
+.textMyColor {
+    color: #ffbe13;
+}
+
+/* ################ Global styling END #################### */
+
+/* ################ main styling start #################### */
+/* ###### start of nav bar styling ###### */
+#mainNavbar {
+    font-size: medium;
+    font-family: "Neuton", serif;
+}
+
+/* for setting brand logo color */
+#mainNavbar .navbar-brand {
+    color: #ffbe13;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+
+/* for nav link font */
+#mainNavbar .nav-link {
+    font-size: large;
+}
+
+/* for active link color */
+#mainNavbar .navbar-nav .active .nav-link {
+    color: #FFBE13;
+}
+
+/* for hover option for navbar links */
+#mainNavbar .navbar-nav .nav-link:hover {
+    color: #FFBE13;
+}
+
+/* ###### end of nav bar styling ###### */
+
+
+/* style of main name in hero */
+#myName {
+    font-size: 58px;
+    font-family: "Neuton",
+        serif;
+    font-weight: bolder;
+}
+
+/* this is for about section para spacing */
+.paraSpacing {
+    line-height: 25px;
+}
